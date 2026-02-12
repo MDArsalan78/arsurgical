@@ -1,0 +1,6 @@
+{
+  "products": [
+    { "id": "1", "name": "Knee Cap", "price": "Wholesale", "image": "/images/kneecap.jpg" },
+    { "id": "2", "name": "LS Belt", "price": "Wholesale", "image": "/images/lsbelt.jpg" }
+  ]
+}

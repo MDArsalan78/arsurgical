@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Knee Cap (L/XL)", "price": "Wholesale on request", "image": "images/kneecap.jpg" },
+  { "id": 2, "name": "LS Belt (Lumbar Support)", "price": "Wholesale on request", "image": "images/lsbelt.jpg" },
+  { "id": 3, "name": "Abdominal Belt", "price": "Wholesale on request", "image": "images/abdominal.jpg" },
+  { "id": 4, "name": "Shoulder Immobilizer", "price": "Wholesale on request", "image": "images/shoulder.jpg" },
+  { "id": 5, "name": "Arm Pouch / Sling", "price": "Wholesale on request", "image": "images/armpouch.jpg" }
+]
