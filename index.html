@@ -1,34 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>A R Surgical – Wholesale Ortho Supplier</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A R Surgical | Quality Surgical Supplies</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <h1>A R Surgical</h1>
-    <p>Wholesale Ortho Support Supplier – Pratapgarh & nearby towns</p>
-    <a class="btn" href="https://wa.me/918052773069?text=Hello%20A%20R%20Surgical,%20I%20want%20wholesale%20rate%20list">
-      Order on WhatsApp
-    </a>
+  <header class="nav">
+    <img src="images/logo.png" alt="A R Surgical Logo" class="logo" />
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <section>
-    <h2>Products</h2>
+  <section class="hero">
+    <h1>A R Surgical</h1>
+    <p>Trusted Surgical & Medical Supplies</p>
+<a class="btn" href="https://wa.me/918052773069?text=Hi%20I%20want%20to%20order%20surgical%20items" target="_blank">
+  Order on WhatsApp
+</a>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
     <ul>
-      <li>Knee Cap</li>
-      <li>LS Belt</li>
-      <li>Abdominal Belt</li>
-      <li>Shoulder Immobilizer</li>
-      <li>Arm Pouch</li>
-      <li>Wrist/Elbow/Ankle Support</li>
-      <li>Cervical Collar (Soft)</li>
+      <li>Disposable Syringes</li>
+      <li>Surgical Gloves</li>
+      <li>Bandages & Gauze</li>
     </ul>
   </section>
 
-  <footer>
-    <p>Contact: 8052773069 | Wholesale Only</p>
-  </footer>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>A R Surgical supplies quality medical and surgical products across cities.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/xzdaepyb" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Requirement" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
