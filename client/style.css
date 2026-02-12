@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin: 0; background:#f7f7f7; }
+header { background:#0b5ed7; color:#fff; padding:40px 20px; text-align:center; }
+.btn { background:#25D366; color:#fff; padding:12px 18px; text-decoration:none; border-radius:6px; }
+section { padding:20px; }
+footer { text-align:center; padding:10px; background:#eee; }
